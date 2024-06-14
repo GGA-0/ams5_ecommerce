@@ -1,0 +1,67 @@
+.screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20vh;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.register-button {
+    width: 120px;
+    color: black; 
+    background-color: #FFFFFF;
+    font-weight: 900;
+    border: 1px solid; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 20px;  
+  }
+
+  .register-button:hover {
+    background-color: rgb(238, 238, 238); 
+    transition: all 0.2s ease;
+  }
+  .register-button:not(:hover) {
+    background-color: #ffffff; 
+    transition: all 0.2s ease;
+  }
+  
+  .login-button {
+    width: 120px;
+    margin-left: 10px;
+    color: #FFFFFF; 
+    font-weight: 600;
+    background-color: black; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+  }
+  
+  .login-button:hover {
+    background-color: rgb(86, 86, 86); 
+  }
+  
